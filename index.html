@@ -1,53 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<link>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ghofran Ahmed </title>
-<link rel="stylesheet" href="css/style.css">
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghofran Ahmed</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
     <nav class="navbar">
-        <a href="# " class="logo">Protfolio....
+        <a href="#home" class="logo">Ghofran.
         </a>
         <ul>
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Service</a></li>
-    <li><a href="#">Contact</a></li>
-</ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
     </nav>
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
 
-    <section class="home">
-        <div class="home-info">
-            <h1>Ghofran Ahmed</h1>
-            <h2>I'm backend developer</h2>
-            <p>Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. Quidem itaque ips
-                |a quisquam veritatis sunt ea minima architecto, porro, animi aspernatu
-                r laudantium repellendus eius. Debitis quo i
-                psam quia obcaecati accusantium reprehenderit?</p>
+    <main>
+        <section id="home" class="home">
+            <div class="home-info">
+                <h1>Ghofran Ahmed</h1>
+                <h2>I'm a
+                    <span style="--i:3;" data-text="Backend Developer">Backend Developer</span>
+                    <span style="--i:2;" data-text="API Developer">API Developer</span>
+                    <span style="--i:1;" data-text="Software Engineer">Software Engineer</span>
+                </h2>
+                <p>
+                    Software Engineering graduate focused on backend development using
+                    PHP, Laravel, MySQL and REST APIs. I enjoy building structured,
+                    practical applications and designing reliable database-driven systems.
+                </p>
                 <div class="btn-sci">
-                    <a href="#" class="btn">Download cv</a>
-                <div class="sci">
-                    <a href=""><i class='bx bxl-github'></i></a>
-                    <a href=""><i class='bx bxl-facebook-circle'></i></a>
-                    <a href=""><i class='bx bxl-telegram'></i></a>
-                    <a href=""><i class='bx bxl-whatsapp'></i></a>
+                    <a href="assets/CV/Ghofran_Fathalla-CV.pdf" class="btn" download>Download cv</a>
+                    <div class="sci">
+                        <a href="https://github.com/ghofranahmed" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                        <a href="mailto:ghofranahmed11ft@gmail.com" aria-label="Gmail">
+                            <i class='bx bxl-gmail'></i>
+                        </a>
+                        <a href="https://t.me/ghofran_fathalla" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                            <i class='bx bxl-telegram'></i>
+                        </a>
+                        <a href="https://wa.me/218911286748" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <i class='bx bxl-whatsapp'></i>
+                        </a>
+                    </div>
                 </div>
-                </div>
-        </div>
-        <div class="home-img">
-            <div class="img-box">
-                <div class="img-item"><img src="assets/images/profile-laptop.png" alt="Ghofran Ahmed working on a laptop">
+            </div>
 
-                </div></div>
-        </div>
-    </section>
+            <div class="home-img">
+                <div class="img-box">
+                    <div class="img-item">
+                        <img src="assets/images/profile-laptop.png" alt="Ghofran Ahmed working on a laptop">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-heading">
+                <h2>About <span>Me</span></h2>
+            </div>
+            <div class="about-card">
+                <p>
+                    I'm a Software Engineering graduate with hands-on experience in backend development,
+                    database design and API development. My main technologies include PHP, Laravel,
+                    MySQL and REST APIs.
+                </p>
+                <p>
+                    Through my academic projects, I have also worked with MongoDB, HTML, CSS, Blade,
+                    Dart and Flutter. I enjoy turning requirements into structured applications and
+                    continuously improving my software engineering skills.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section section-alt">
+            <div class="section-heading">
+                <h2>My <span>Skills</span></h2>
+                <p>Grouped to make your strongest backend focus clear at a glance.</p>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                        <li>REST API</li>
+                        <li>CRUD Operations</li>
+                        <li>Authentication</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>Database Design</li>
+                        <li>ERD</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Frontend Basics</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Blade</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Postman</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Figma</li>
+                    </ul>
+                </article>
+               
+                <article class="skill-card">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Communication</li>
+                        <li>Teamwork</li>
+                        <li>Time Management</li>
+                        <li>Working Under Pressure</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <h2>Featured <span>Project</span></h2>
+            <article class="project-card">
+                <div class="project-copy">
+                    <span class="project-label">Graduation Project</span>
+                    <h3>Educational Roadmap Management System</h3>
+                    <p>
+                        A graduation project designed to help students follow structured learning paths
+                        in programming and IT. The system includes user authentication, learning paths,
+                        lessons, resources, quizzes, coding challenges, progress tracking, notifications,
+                        community chat, a smart tutor and an admin dashboard.
+                    </p>
+                </div>
+                <div class="tag-list">
+                    <span>Laravel</span>
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>Authentication</span>
+                    <span>Database Design</span>
+                </div>
+            </article>
+        </section>
+
+        <section id="experience" class="section section-alt">
+            <div class="section-heading">
+                <h2>Work <span>Experience</span></h2>
+            </div>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-meta">
+                        <h3>IT Support / Data Entry / Call Center</h3>
+                        <span>Al-inwan Company</span>
+                        <p>2026 - 2026</p>
+                    </div>
+                    <ul>
+                        <li>Handled customer calls and data entry tasks.</li>
+                        <li>Provided basic IT support and troubleshooting.</li>
+                        <li>Improved communication and problem-solving skills.</li>
+                    </ul>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-meta">
+                        <h3>Personal Private Tutor</h3>
+                        <span>Self-Employed</span>
+                        <p>2021 - Present</p>
+                    </div>
+                    <ul>
+                        <li>Taught students using Cambridge and Pearson curricula.</li>
+                        <li>Simplified complex concepts based on each student's level.</li>
+                        <li>Developed strong communication, explanation and mentoring skills.</li>
+                    </ul>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-meta">
+                        <h3>Computer Science Teacher</h3>
+                        <span>Meet Triangle Center</span>
+                        <p>Nov 2021 - May 2022</p>
+                    </div>
+                    <ul>
+                        <li>Taught computer basics and programming fundamentals.</li>
+                        <li>Helped students understand technical concepts through simple examples.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="section-heading">
+                <h2>My <span>Education</span></h2>
+              
+            </div>
+            <article class="education-card">
+                <h3>Bachelor's Degree in Software Engineering</h3>
+                <p>Electronic Technology College</p>
+                <span>2021 - 2026</span>
+            </article>
+        </section>
+    </main>
 </body>
 
 </html>
