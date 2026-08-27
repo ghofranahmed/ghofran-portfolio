@@ -3,31 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ghofran Ahmed</title>
+    <title>Ghofran Ahmed | Backend Developer</title>
+    <meta
+        name="description"
+        content="Portfolio of Ghofran Ahmed, a Software Engineering graduate focused on backend development with PHP, Laravel, MySQL, and REST APIs."
+    >
+    <meta name="theme-color" content="#08111F">
+    <meta property="og:title" content="Ghofran Ahmed | Backend Developer">
+    <meta
+        property="og:description"
+        content="Backend-focused portfolio featuring Laravel, PHP, MySQL, REST API projects, and practical software engineering work."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/profile-cutout.png">
+    <link rel="icon" type="image/png" href="assets/images/profile-cutout.png">
     <link rel="stylesheet" href="css/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar">
-        <a href="#home" class="logo">Ghofran.
-        </a>
-        <ul>
-            <li class="active"><a href="#home">Home</a></li>
+        <a href="#home" class="logo">Ghofran.</a>
+        <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-links"
+            aria-label="Toggle navigation"
+        >
+            <i class="bx bx-menu"></i>
+        </button>
+        <ul id="nav-links" class="nav-links">
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <div class="bars-animation">
-        <div class="bar" style="--i:6;"></div>
-        <div class="bar" style="--i:5;"></div>
-        <div class="bar" style="--i:4;"></div>
-        <div class="bar" style="--i:3;"></div>
-        <div class="bar" style="--i:2;"></div>
-        <div class="bar" style="--i:1;"></div>
+
+    <div class="bars-animation" aria-hidden="true">
+        <div class="bar" style="--i: 6;"></div>
+        <div class="bar" style="--i: 5;"></div>
+        <div class="bar" style="--i: 4;"></div>
+        <div class="bar" style="--i: 3;"></div>
+        <div class="bar" style="--i: 2;"></div>
+        <div class="bar" style="--i: 1;"></div>
     </div>
 
     <main>
@@ -35,29 +58,29 @@
             <div class="home-info">
                 <h1>Ghofran Ahmed</h1>
                 <h2>I'm a
-                    <span style="--i:3;" data-text="Backend Developer">Backend Developer</span>
-                    <span style="--i:2;" data-text="API Developer">API Developer</span>
-                    <span style="--i:1;" data-text="Software Engineer">Software Engineer</span>
+                    <span style="--i: 3;" data-text="Backend Developer">Backend Developer</span>
+                    <span style="--i: 2;" data-text="API Developer">API Developer</span>
+                    <span style="--i: 1;" data-text="Software Engineer">Software Engineer</span>
                 </h2>
                 <p>
-                    Software Engineering graduate focused on backend development using
-                    PHP, Laravel, MySQL and REST APIs. I enjoy building structured,
-                    practical applications and designing reliable database-driven systems.
+                    Software Engineering graduate focused on backend development with PHP,
+                    Laravel, MySQL, and REST APIs. I enjoy building structured, database-driven
+                    applications with practical logic, clean validation flow, and reliable system design.
                 </p>
                 <div class="btn-sci">
-                    <a href="assets/CV/Ghofran_Fathalla-CV.pdf" class="btn" download>Download cv</a>
+                    <a href="assets/CV/Ghofran_Fathalla-CV.pdf" class="btn" download>Download CV</a>
                     <div class="sci">
                         <a href="https://github.com/ghofranahmed" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                            <i class='bx bxl-github'></i>
+                            <i class="bx bxl-github"></i>
                         </a>
-                        <a href="mailto:ghofranahmed11ft@gmail.com" aria-label="Gmail">
-                            <i class='bx bxl-gmail'></i>
+                        <a href="mailto:ghofranahmed11ft@gmail.com" aria-label="Email">
+                            <i class="bx bxl-gmail"></i>
                         </a>
                         <a href="https://t.me/ghofran_fathalla" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
-                            <i class='bx bxl-telegram'></i>
+                            <i class="bx bxl-telegram"></i>
                         </a>
                         <a href="https://wa.me/218911286748" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-                            <i class='bx bxl-whatsapp'></i>
+                            <i class="bx bxl-whatsapp"></i>
                         </a>
                     </div>
                 </div>
@@ -66,7 +89,7 @@
             <div class="home-img">
                 <div class="img-box">
                     <div class="img-item">
-                        <img src="assets/images/profile-laptop.png" alt="Ghofran Ahmed working on a laptop">
+                        <img src="assets/images/profile-photo.jpg" alt="Ghofran Ahmed working on a laptop">
                     </div>
                 </div>
             </div>
@@ -79,13 +102,13 @@
             <div class="about-card">
                 <p>
                     I'm a Software Engineering graduate with hands-on experience in backend development,
-                    database design and API development. My main technologies include PHP, Laravel,
-                    MySQL and REST APIs.
+                    database design, and API-focused application building. My main technologies include
+                    PHP, Laravel, MySQL, and REST APIs.
                 </p>
                 <p>
-                    Through my academic projects, I have also worked with MongoDB, HTML, CSS, Blade,
-                    Dart and Flutter. I enjoy turning requirements into structured applications and
-                    continuously improving my software engineering skills.
+                    Through academic and practical projects, I have also worked with MongoDB, HTML, CSS,
+                    Blade, Dart, and Flutter. I enjoy turning requirements into structured applications
+                    and continuously improving my software engineering skills.
                 </p>
             </div>
         </section>
@@ -93,7 +116,7 @@
         <section id="skills" class="section section-alt">
             <div class="section-heading">
                 <h2>My <span>Skills</span></h2>
-                <p>Grouped to make your strongest backend focus clear at a glance.</p>
+                <p>Grouped to make your backend strengths easier for recruiters to scan quickly.</p>
             </div>
             <div class="skills-grid">
                 <article class="skill-card">
@@ -102,8 +125,15 @@
                         <li>PHP</li>
                         <li>Laravel</li>
                         <li>REST API</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Backend Concepts</h3>
+                    <ul>
                         <li>CRUD Operations</li>
                         <li>Authentication</li>
+                        <li>Database Design</li>
+                        <li>ERD</li>
                     </ul>
                 </article>
                 <article class="skill-card">
@@ -111,16 +141,6 @@
                     <ul>
                         <li>MySQL</li>
                         <li>MongoDB</li>
-                        <li>Database Design</li>
-                        <li>ERD</li>
-                    </ul>
-                </article>
-                <article class="skill-card">
-                    <h3>Frontend Basics</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Blade</li>
                     </ul>
                 </article>
                 <article class="skill-card">
@@ -132,7 +152,6 @@
                         <li>Figma</li>
                     </ul>
                 </article>
-               
                 <article class="skill-card">
                     <h3>Soft Skills</h3>
                     <ul>
@@ -148,26 +167,126 @@
 
         <section id="projects" class="section">
             <div class="section-heading">
-                <h2>Featured <span>Project</span></h2>
-            <article class="project-card">
-                <div class="project-copy">
-                    <span class="project-label">Graduation Project</span>
-                    <h3>Educational Roadmap Management System</h3>
-                    <p>
-                        A graduation project designed to help students follow structured learning paths
-                        in programming and IT. The system includes user authentication, learning paths,
-                        lessons, resources, quizzes, coding challenges, progress tracking, notifications,
-                        community chat, a smart tutor and an admin dashboard.
-                    </p>
-                </div>
-                <div class="tag-list">
-                    <span>Laravel</span>
-                    <span>PHP</span>
-                    <span>MySQL</span>
-                    <span>Authentication</span>
-                    <span>Database Design</span>
-                </div>
-            </article>
+                <h2>Backend <span>Projects</span></h2>
+                <p>
+                    Selected backend-focused work with real public repositories and clearer detail on the
+                    application logic, APIs, and systems I built.
+                </p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-copy">
+                        <span class="project-label">Graduation Project</span>
+                        <h3>Educational Roadmap Management System</h3>
+                        <p>
+                            A Laravel-based graduation project for managing structured educational roadmaps in
+                            programming and IT, with lessons, quizzes, coding challenges, progress tracking,
+                            and collaboration-oriented features for students.
+                        </p>
+                    </div>
+                    <div class="tag-list">
+                        <span>PHP</span>
+                        <span>Laravel</span>
+                        <span>MySQL</span>
+                        <span>REST API</span>
+                        <span>Authentication</span>
+                    </div>
+                    <div class="project-actions">
+                        <a
+                            href="https://github.com/ghofranahmed/roadmap_system"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+                        <details class="project-details">
+                            <summary class="project-link">View Details</summary>
+                            <div class="project-details-content">
+                                <ul class="project-points">
+                                    <li>Built backend modules for structured roadmaps, lessons, resources, quizzes, and coding challenges.</li>
+                                    <li>Worked on authentication, database design, and database-driven content management for students and admins.</li>
+                                    <li>Supported practical backend flows around progress tracking, notifications, and organized learning data.</li>
+                                </ul>
+                            </div>
+                        </details>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-copy">
+                        <span class="project-label">Academic Project</span>
+                        <h3>Student Training Management</h3>
+                        <p>
+                            A Laravel web application built to manage student training and internship workflows
+                            in a more organized, trackable way.
+                        </p>
+                    </div>
+                    <div class="tag-list">
+                        <span>PHP</span>
+                        <span>Laravel</span>
+                        <span>Blade</span>
+                        <span>CRUD</span>
+                    </div>
+                    <div class="project-actions">
+                        <a
+                            href="https://github.com/ghofranahmed/student-training-management"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+                        <details class="project-details">
+                            <summary class="project-link">View Details</summary>
+                            <div class="project-details-content">
+                                <ul class="project-points">
+                                    <li>Built a Laravel-based workflow for organizing student training and internship records.</li>
+                                    <li>Focused on structured CRUD operations and clear data handling across related training entities.</li>
+                                    <li>Used the project to strengthen practical backend organization, routing, and maintainable app structure.</li>
+                                </ul>
+                            </div>
+                        </details>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-copy">
+                        <span class="project-label">Microservice Project</span>
+                        <h3>QuickLink URL Shortener</h3>
+                        <p>
+                            A Laravel 12 URL shortener microservice focused on concise backend behavior for
+                            generating and resolving shortened links.
+                        </p>
+                    </div>
+                    <div class="tag-list">
+                        <span>PHP</span>
+                        <span>Laravel 12</span>
+                        <span>Microservice</span>
+                        <span>REST API</span>
+                    </div>
+                    <div class="project-actions">
+                        <a
+                            href="https://github.com/ghofranahmed/URL_shortner_project"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+                        <details class="project-details">
+                            <summary class="project-link">View Details</summary>
+                            <div class="project-details-content">
+                                <ul class="project-points">
+                                    <li>Built a compact backend service for creating and resolving shortened URLs.</li>
+                                    <li>Focused on API-oriented request handling, validation flow, and database-backed link management.</li>
+                                    <li>Used the project to practice clean Laravel service structure for a focused backend use case.</li>
+                                </ul>
+                            </div>
+                        </details>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <section id="experience" class="section section-alt">
@@ -179,12 +298,12 @@
                     <div class="timeline-meta">
                         <h3>IT Support / Data Entry / Call Center</h3>
                         <span>Al-inwan Company</span>
-                        <p>2026 - 2026</p>
+                        <p>2026</p>
                     </div>
                     <ul>
-                        <li>Handled customer calls and data entry tasks.</li>
-                        <li>Provided basic IT support and troubleshooting.</li>
-                        <li>Improved communication and problem-solving skills.</li>
+                        <li>Handled customer calls and data entry tasks in a structured, service-focused environment.</li>
+                        <li>Provided basic IT support and troubleshooting assistance when needed.</li>
+                        <li>Strengthened communication, organization, and day-to-day problem-solving skills.</li>
                     </ul>
                 </article>
                 <article class="timeline-item">
@@ -196,7 +315,7 @@
                     <ul>
                         <li>Taught students using Cambridge and Pearson curricula.</li>
                         <li>Simplified complex concepts based on each student's level.</li>
-                        <li>Developed strong communication, explanation and mentoring skills.</li>
+                        <li>Developed strong communication, explanation, and mentoring skills.</li>
                     </ul>
                 </article>
                 <article class="timeline-item">
@@ -216,7 +335,6 @@
         <section id="education" class="section">
             <div class="section-heading">
                 <h2>My <span>Education</span></h2>
-              
             </div>
             <article class="education-card">
                 <h3>Bachelor's Degree in Software Engineering</h3>
@@ -224,7 +342,52 @@
                 <span>2021 - 2026</span>
             </article>
         </section>
-    </main>
-</body>
 
+        <section id="contact" class="section section-alt">
+            <div class="section-heading">
+                <h2>Let's <span>Connect</span></h2>
+                <p>
+                    If you're hiring for backend, Laravel, or API-focused roles, I'd be happy to connect
+                    and discuss how I can contribute.
+                </p>
+            </div>
+            <div class="contact-grid">
+                <a class="contact-card" href="https://github.com/ghofranahmed" target="_blank" rel="noopener noreferrer">
+                    <i class="bx bxl-github"></i>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>github.com/ghofranahmed</p>
+                    </div>
+                </a>
+                <a class="contact-card" href="mailto:ghofranahmed11ft@gmail.com">
+                    <i class="bx bxl-gmail"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>ghofranahmed11ft@gmail.com</p>
+                    </div>
+                </a>
+                <a class="contact-card" href="https://t.me/ghofran_fathalla" target="_blank" rel="noopener noreferrer">
+                    <i class="bx bxl-telegram"></i>
+                    <div>
+                        <h3>Telegram</h3>
+                        <p>@ghofran_fathalla</p>
+                    </div>
+                </a>
+                <a class="contact-card" href="https://wa.me/218911286748" target="_blank" rel="noopener noreferrer">
+                    <i class="bx bxl-whatsapp"></i>
+                    <div>
+                        <h3>WhatsApp</h3>
+                        <p>+218 91 128 6748</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span id="current-year">2026</span> Ghofran Ahmed. Backend Developer Portfolio.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
 </html>
